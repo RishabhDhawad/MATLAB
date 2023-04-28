@@ -15,3 +15,6 @@ plot(t, Vc);
 xlabel('Time (s)');
 ylabel('Voltage (V)');
 title('Voltage Across Capacitor During Charging');
+
+% cil and plot difference
+% fix 3.5

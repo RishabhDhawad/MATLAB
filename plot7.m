@@ -8,6 +8,7 @@ ylabel('INTENSITY (lux)')
 title('\fontname{Arial}Light Intensity as a Function of Distance','FontSize',14)
 axis([8 24 0 1200])
 text(14,700,'Comparison between theory and experiment.','EdgeColor','r','LineWidth',2)
+% hold on is used to plpot another line on the same graph
 hold on
 plot(xd,yd,'ro--','linewidth',1.0,'markersize',10)
 legend('Theory','Experiment',0)
